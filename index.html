@@ -4,19 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Hardware world</title>
-</head>
+</head> 
 <body>
     <header>
-        
-        <p>
-            <a href="/"><img id="logo" src="./images/logo.png" alt="Лого"></a> <br>
-            Вярваме в технологиите
+        <!--Лого-->
+        <p class="logo">
+            <a href="/"><img id="logo" src="./images/logo.png" alt="Лого" ></a> 
+           Вярваме в технологиите
         </p>
+        <!--Навигация-->
+        <nav>
+            <a class="button" id="first" href="#">Начало</a>
+            <ul class="catalog">
+                <li><a  id="catalog" class="dropdown, button" href="#">Каталог &emsp; <img src="./images/arrow.png" alt="" width="10%"></a>
+                    <ul>
+                        <li><a class="button" href="#">Дънни платки</a></li>
+                        <li><a class="button" href="#">Процесори</a></li>
+                        <li><a class="button" href="#">Видео карти</a></li>
+                        <li><a class="button" href="#">Рам</a></li>
+                        <li><a class="button" href="#">Хард дискове</a></li>
+                    </ul>
+                </li>
+             </ul>
+            <a class="button" id="second" href="#">Услуги</a>
+            <a class="button" id="third"  href="#">За нас</a>
+            <a class="button" id="fourth" href="#">Контакти</a>
+        </nav>
+        
     </header>
     <main>
-        <h2>work</h2>
+        <div class="hero">
+            <div class="text">
+             <h1>Hardware World</h1>
+             <div id="line"></div>
+             <p>Ние сме тук за вас</p>
+         </div>
+         </div>
+         <div>
+            work
+         </div>
     </main>
     <footer>
        
