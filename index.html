@@ -5,49 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <title>Hardware world</title>
+    <script>
+        $(document).ready(function(){
+         $('.slider').bxSlider();
+          });
+         
+         $(function(){
+            $('.bxslider').bxSlider({
+              mode: 'fade',
+              captions: true,
+              slideWidth: 600,
+              pager: true
+            });
+          });
+    </script>
 </head> 
 <body>
     <header>
         <!--Лого-->
         <p class="logo">
             <a href="/"><img id="logo" src="./images/logo.png" alt="Лого" ></a> 
-           Вярваме в технологиите
+           <a id="slogan"href="/">Вярваме в технологиите</a>
         </p>
         <!--Навигация-->
         <nav>
+            <div class="vl"></div>
             <a class="button" id="first" href="#">Начало</a>
-            <ul class="catalog">
-                <li><a  id="catalog" class="dropdown, button" href="#">Каталог &emsp; <img src="./images/arrow.png" alt="" width="10%"></a>
-                    <ul>
-                        <li><a class="button" href="#">Дънни платки</a></li>
-                        <li><a class="button" href="#">Процесори</a></li>
-                        <li><a class="button" href="#">Видео карти</a></li>
-                        <li><a class="button" href="#">Рам</a></li>
-                        <li><a class="button" href="#">Хард дискове</a></li>
-                    </ul>
-                </li>
-             </ul>
+            <div class="dropdown">
+                <button class="dropdown-button">Каталог</button>
+                <div class="dropdown-content">
+                <a href="#">Дънни платки</a>
+                <a href="#">Видео карти</a>
+                <a href="#">Рам памети</a>
+                <a href="#">Хард дискове</a>
+                <a href="#">Захранвания</a>
+                <a href="#">Кутии</a>
+
+                </div>
+            </div>
             <a class="button" id="second" href="#">Услуги</a>
-            <a class="button" id="third"  href="#">За нас</a>
             <a class="button" id="fourth" href="#">Контакти</a>
         </nav>
         
     </header>
     <main>
-        <div class="hero">
-            <div class="text">
-             <h1>Hardware World</h1>
-             <div id="line"></div>
-             <p>Ние сме тук за вас</p>
-         </div>
-         </div>
-         <div>
-            work
-         </div>
+       <section>
+            <div class="hero">
+                <div class="text">
+                    <h1>Hardware World</h1>
+                    <div id="line"></div>
+                    <p>Ние сме тук за вас</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="main">
+                <div class="slider1">
+                <div class="bxslider">
+                    <div><a href="#"><img src="./images/img1.jpg"></a></div>
+                    <div><a href="#"></a><img src="./images/img2.png"></a></div>
+                    <div><a href="#"></a><img src="./images/img3.png"></a></div>
+                    <div><a href="#"></a><img src="./images/img4.png"></a></div>
+                    <div><a href="#"></a><img src="./images/img5.png"></a></div>
+                    <div><a href="#"></a><img src="./images/img6.png"></a></div>
+                  </div>
+                  
+                </div>  
+                <p class="category-text">Изберете категория</p>
+            </div>
+        </section>
+        <section>
+            <div class="separator"></div>
+            <table>
+                <tr>
+                    <td><i id="thumb" class="fa-solid fa-thumbs-up"></i> <p class="icon-numbers">100%</p> <div class="icon-line"></div><p class="icon-text">Гарантирано качество</p> </td>
+                    <td><i id="user" class="fa-solid fa-user"></i> <p class="icon-numbers">500</p> <div class="icon-line"></div><p class="icon-text">Доволни клиента</p></td>
+                    <td><i id="computer" class="fa-solid fa-computer"></i> <p class="icon-numbers">530</p><div class="icon-line"></div><p class="icon-text">Сглобени компютъра</p></td>
+                </tr>
+            </table>
+        </section>
+         
     </main>
-    <footer>
-       
+    <footer class="site-footer">
+        <div class="container">
+          
+            <div class="forUs">
+              <h6>За нас</h6>
+              <p class="text-justify">Ние сме изгряваща компания в света на услугите. Стараем се да удовлетворим желанията на нашите клиенти. Предлагаме качествени продукти и професионално отношение.</p>
+            </div>
+          
+            <div class="contacts">
+              <h6>Контакти</h6>
+              <ul class="footer-links">
+                <li>E-mail: hardware_world-office@gmail.com
+                <li>Телефон: 0888888</li>
+                <li>Адрес: бул. Цариградско шосе 23 гр.София</li>
+              </ul>
+              <div class="icons">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>   
+                </ul>
+                    
+            </div>
+            </div>
+        </div>
+          
+        <hr>
+        
+        
+            <div class="copyright">
+                <p class="copyright-text">
+                    Copyright &copy; 2023 All Rights Reserved by <a id="footer-link"href="/">HardwareWorld</a>.
+                </p>
+        
+            
+        </div>
     </footer>
 </body>
 </html>
