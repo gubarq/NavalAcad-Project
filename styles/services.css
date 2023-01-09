@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(212, 210, 210);
-    
+   
   }
   .logo{
     margin-top: 1%;
@@ -146,6 +146,7 @@ h2{
     text-align: center;
     font-family: 'Vollkorn', serif;
     text-shadow: 2px 2px 5px white;
+    margin-top: 100px;
 }
 .text{
     margin-top: 100px;
@@ -154,10 +155,11 @@ h2{
     width: 800px;
     font-size: 170%;
 }
-img{
+#img1{
     float: right;
     margin-right: 40px;
     width: 800px;
+    margin-top: 90px;
     
 }
 .icons{
@@ -174,17 +176,24 @@ i{
     margin-top: 0px;
 }
 /*Форма*/
+    
 
   .form {
+
+    opacity: 1;
+    transition: all 1s;
     background: #ffffff;
     max-width: 800px;
     margin: auto;
     margin-top: 600px;
+    margin-bottom: 100px;
     padding: 45px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
-  
+  .show{
+    display: none;
+  }
   .form h2 {
     margin-bottom: 50px;
     font-size: 400%;
@@ -214,7 +223,7 @@ i{
     margin-bottom: 10px;
     background-color: rgb(242, 242, 242);
   }
-  .form button {
+  .form .public {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -228,7 +237,7 @@ i{
     transition: all 0.3 ease;
     cursor: pointer;
   }
-  button:hover{
+  .public:hover{
     background-color: rgb(68, 67, 67);
   }
  

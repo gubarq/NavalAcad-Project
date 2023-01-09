@@ -1,0 +1,142 @@
+@media only screen and (max-width:480px ){
+    nav{
+      padding-right: 1px;
+    }
+    header{
+      width: 100%;
+    }
+    #slogan{
+      display: none;
+    }
+    #logo{
+      width: 110%;
+      margin-left: 10px;
+      margin-bottom: 0;
+      margin-top: 30px;
+    }
+    .logo{
+      margin-top: 0; 
+     margin-left: 0;
+    }
+    .button{
+      font-size: 70%;
+      width: 60%;
+      height: 60%;
+    }
+    .dropdown-button{
+      width: 60%;
+      font-size: 80%;
+      text-align: center;
+    }
+    .hero{
+      height: 70vh;
+      background-image: url(../images/hero.jpg);
+      width: auto;
+      text-align: center;
+    }
+    #line{
+      margin-left: 75px;
+    }
+    .text h1{
+      font-size: 250%;
+    }
+    .text p{
+      font-size: 180%;
+    }
+    .slider1{
+      
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 40px;
+    }
+    .category-text{
+      font-size: 120%;
+    }
+    .main{
+      height: auto;
+    }
+    .separator{
+      display: none;
+    }
+    table{
+      display: none;
+    }
+    footer{
+      width: auto;
+    }
+    .container{
+      display: none;
+    }
+    }
+  
+  
+@media only screen and (min-width:481px ) and (max-width: 1382px){
+    nav{
+      padding-right: 50px;
+    }
+    header{
+      width: 100%;
+    }
+    #slogan{
+      display: none;
+    }
+    #logo{
+      width: 50%;
+      margin-left: 50px;
+      margin-bottom: 0;
+      margin-top: 30px;
+    }
+    .logo{
+      margin-top: 0; 
+     margin-left: 0;
+    }
+    .button{
+      font-size: 70%;
+      width: 60%;
+      height: 60%;
+    }
+    .dropdown-button{
+      width: 60%;
+      font-size: 80%;
+      text-align: center;
+    }
+    .hero{
+      height: 70vh;
+      background-image: url(../images/hero.jpg);
+      width: auto;
+      text-align: center;
+    }
+    #line{
+      margin-left: 75px;
+    }
+    .text h1{
+      font-size: 250%;
+    }
+    .text p{
+      font-size: 180%;
+    }
+    .slider1{
+      
+      max-width: 0 auto;
+    }
+    .category-text{
+      font-size: 120%;
+      margin: 0 auto;
+    }
+    .main{
+      height: auto;
+    }
+    .separator{
+      display: none;
+    }
+    table{
+      display: none;
+    }
+    footer{
+      width: auto;
+    }
+    .container{
+      display: none;
+    }
+  }
+  

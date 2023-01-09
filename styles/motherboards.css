@@ -139,9 +139,8 @@ body {
 /* Продукт бокс */
 #details-wrapper {
   background-color: rgba(243, 241, 241, 0.779);
-
   margin: 50px auto;
-  min-height: 400px;
+  height: 650px;
   width: 50%;
   border: 2px ridge rgb(210, 208, 208);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.24);

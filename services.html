@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./styles/services.css">
+    
     <title>Hardware world</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
     <main>
         <section></section>
         <h2>Нека сглобим вашия компютър</h2>
-        <img src="./images/computer-assemble.jpg" alt="computer-assemble">
+        <img id="img1"src="./images/computer-assemble.jpg" alt="computer-assemble">
         <p class="text">
             Предлагаме качествени части и сглобяване на вашия компютър. Изберете си части и попълнете формата надолу. Ние ще го сглобим и доставим в рамките на два работни дни.
         </p>
@@ -49,8 +50,9 @@
             <i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;&nbsp;&nbsp;Сигурен сервиз <br>
             <i class="fa-sharp fa-solid fa-user-tie"></i> &nbsp;&nbsp;&nbsp;Експертна консултация 
         </p>
+        
         </section>
-        <section id="create">
+        <section id="create" >
             <div class="form">
               <h2>Направи поръчка</h2>
             <form class="create-form">
@@ -70,11 +72,19 @@
                 <h3>Телефон за връзка</h3>
                 <input type="tel" name="tel" placeholder="+359 888888888" >
           
-                <button class="public" [disabled]="form.invalid">Create</button>
+                <input type="button" value ="Поръчай" class="public" onclick="toggle()" >
             
             </form>
           </div>
           </section>
+         
     </main>
+    <script> 
+       function toggle () {
+            document.getElementById("create").classList.toggle("show");
+            console.log("asasasas")
+        }    
+           
+    </script>
 </body> 
 </html>
