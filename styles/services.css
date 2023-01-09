@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap');
+
+body {
+    color: rgb(68, 67, 67);
+    background-color: rgb(228, 227, 227);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(212, 210, 210);
+    
+  }
+  .logo{
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+  }
+  #logo{
+    margin-left: 30px;
+    width: 20%;
+    height: 20%;
+  }
+  #slogan{
+    text-decoration: none;
+    color: rgb(68, 67, 67);;
+  }
+/* Навигация */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em 3em;
+  
+  }
+  .vl {
+    border-left: 1.5px solid ;
+    height: 60px;
+    color: rgb(94, 92, 92);
+
+  }
+  nav a {
+    
+    display: block;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    font-family: 'Roboto Slab', serif;
+  } 
+  /*Дроп меню*/
+  .dropdown-button{
+    background: rgb(114, 114, 114);
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 120%;
+   font-weight: bold;
+   font-style: italic;
+    
+  }
+  .dropdown-button:hover {
+    background:  rgb(68, 67, 67);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #adadad
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*Навигиращи бутони */
+  .button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: rgb(114, 114, 114);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 1em;
+}
+#first:hover{
+    background:  rgb(68, 67, 67);
+    color:#FFF;
+} 
+#second:hover{
+  background:  rgb(68, 67, 67);
+  color:#FFF;
+} 
+ 
+#fourth:hover{
+  background:  rgb(68, 67, 67);
+  color:#FFF;
+} 
+#first{
+  margin-right: 0;
+}
+#second{
+  margin-left: 0;
+}

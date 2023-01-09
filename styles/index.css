@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap');
 body {
     color: rgb(68, 67, 67);
     background-color: rgb(228, 227, 227);
@@ -153,6 +154,11 @@ body {
   font-family: 'Volkhov', serif;
   
 }
+
+#hero-text{
+  font-family: 'Lobster', cursive;
+  text-shadow: 10px 10px 15px black;
+}
     
 .text p {
   font-size: 3rem;
@@ -186,7 +192,20 @@ body {
 .category-text{
   font-size: 200%;
   text-align: center;
+  font-family: 'Vollkorn', serif;
+  text-shadow: 2px 2px 5px white;
   
+}
+#form-button{
+text-decoration: none;
+color: rgb(68, 67, 67);
+margin-bottom: 100px;
+}
+#form-button:hover{
+  background:  rgb(68, 67, 67);
+    color:#FFF;
+    text-shadow: none;
+    text-decoration: underline;
 }
 /*Трета секция*/
 .separator{
@@ -194,6 +213,7 @@ body {
   width: 70%;
   margin: 0 auto;
   background-color: rgb(94, 92, 92);
+  margin-top: 30px;
 }
 table{
   margin: 0 auto;
@@ -220,6 +240,7 @@ td{
 .icon-numbers{
   font-size: 250%;
   font-weight: bold;
+  
 }
 .icon-line{
   height: 2px;
@@ -229,6 +250,9 @@ td{
 }
 .icon-text{
   font-size: 150%;
+  font-family: 'Vollkorn', serif;
+  text-shadow: 1px 1px 3px rgb(42, 42, 42);
+
 }
 /*Фуутър*/
 .site-footer
