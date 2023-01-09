@@ -139,3 +139,101 @@ body {
 #second{
   margin-left: 0;
 }
+
+/*Първа секция*/
+h2{
+    font-size: 350%;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    text-shadow: 2px 2px 5px white;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    width: 800px;
+    font-size: 170%;
+}
+img{
+    float: right;
+    margin-right: 40px;
+    width: 800px;
+    
+}
+.icons{
+    float: left;
+    margin-left: 300px;
+    font-size: 210%;
+    text-align: center;
+    line-height: 12vh;
+}
+i{
+    color: white;
+    font-size: 150%;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 0px;
+}
+/*Форма*/
+
+  .form {
+    background: #ffffff;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 600px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  .form h2 {
+    margin-bottom: 50px;
+    font-size: 400%;
+    font-family: 'Vollkorn', serif;
+
+  }
+  
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .form textarea {
+    border: 1px solid rgb(206, 206, 206);
+    width: 99%;
+    max-width: 99%;
+    min-width: 99%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(242, 242, 242);
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(114, 114, 114);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(68, 67, 67);
+  }
+ 
+  h3{
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+
+  }

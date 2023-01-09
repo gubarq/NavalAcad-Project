@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./styles/storages.css">
+    <link rel="stylesheet" href="./styles/services.css">
     <title>Hardware world</title>
 </head>
 <body>
@@ -37,7 +37,44 @@
         </nav>
     </header>
     <main>
-        
+        <section></section>
+        <h2>Нека сглобим вашия компютър</h2>
+        <img src="./images/computer-assemble.jpg" alt="computer-assemble">
+        <p class="text">
+            Предлагаме качествени части и сглобяване на вашия компютър. Изберете си части и попълнете формата надолу. Ние ще го сглобим и доставим в рамките на два работни дни.
+        </p>
+        <p class="icons">
+            <i class="fa-solid fa-truck"></i> &nbsp;&nbsp;&nbsp; Бърза доставка <br>
+            <i class="fa-solid fa-shield"></i> &nbsp;&nbsp;&nbsp;Удължена гаранция <br>
+            <i class="fa-solid fa-screwdriver-wrench"></i> &nbsp;&nbsp;&nbsp;Сигурен сервиз <br>
+            <i class="fa-sharp fa-solid fa-user-tie"></i> &nbsp;&nbsp;&nbsp;Експертна консултация 
+        </p>
+        </section>
+        <section id="create">
+            <div class="form">
+              <h2>Направи поръчка</h2>
+            <form class="create-form">
+             
+                <h3>Дънна платка</h3>
+                <input type="text" name="motherboard" id="motherboard-model" placeholder="Модел на дънна платка">
+                <h3>Видео карта</h3>
+                <input type="text" name="videocard" id="videocard-model" placeholder="Модел на видео карта">
+                <h3>Рам</h3>
+                <input type="text" name="ram" id="ram-model" placeholder="Модел на рам">
+                <h3>Хард диск</h3>
+                <input type="text" name="storage" id="storage-model" placeholder="Модел на хард диск">
+                <h3>Захранване</h3>
+                <input type="text" name="power" id="power-model" placeholder="Модел на захранване">
+                <h3>Кутия</h3>
+                <input type="text" name="box" id="box-model" placeholder="Модел на кутия">
+                <h3>Телефон за връзка</h3>
+                <input type="tel" name="tel" placeholder="+359 888888888" >
+          
+                <button class="public" [disabled]="form.invalid">Create</button>
+            
+            </form>
+          </div>
+          </section>
     </main>
 </body> 
 </html>
