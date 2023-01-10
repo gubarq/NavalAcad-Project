@@ -115,13 +115,14 @@
     .text p{
       font-size: 180%;
     }
-    .slider1{
-      
-      max-width: 0 auto;
+    .main{
+        margin-right: 15%;
     }
+    
     .category-text{
       font-size: 120%;
-      margin: 0 auto;
+       text-align: center;
+       margin-left: 20%;
     }
     .main{
       height: auto;
